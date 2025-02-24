@@ -14,6 +14,11 @@
   }
 }
 
+.manrope {
+  font-family: "Manrope", serif;
+  font-weight: "22px";
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
