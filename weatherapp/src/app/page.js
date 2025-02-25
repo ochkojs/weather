@@ -1,9 +1,13 @@
-import { Board, Circular } from "@/components";
+import { Board, BottomMenu, Circular, LocationInput } from "@/components";
 import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="flex justify-center items-center h-screen static">
+      <div className="z-990">
+        <LocationInput></LocationInput>
+      </div>
+
       <div className="flex gap-5 absolute z-30">
         <svg
           xmlns="http://www.w3.org/2000/svg"
