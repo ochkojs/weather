@@ -1,0 +1,71 @@
+body{
+    background-color: rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+.mainContainer{
+    width: 1000px;
+    height: 100vh;
+    justify-content: center;
+    background-color: rgba(255, 166, 0, 0.422);
+    padding: 20px;
+}
+
+.logoclass{
+    width: 170px;
+    height: 50px;
+    display: flex;
+    background-image: url(https://news.mn/wp-content/themes/newsmn/assets/images/logo.svg);
+    background-repeat: none;
+    margin-bottom: 20px;
+}
+
+.menuContainer{
+    /* width: 1000px;
+    height: 80px; */
+    color: white;
+    display: flex;
+    background-color: #21295F;
+    justify-content: center;
+}
+
+.menu{
+    padding: 10px 20px;
+    font-family: "Didact Gothic", serif;
+    font-size: 14px;
+    border-bottom: solid 2px #21295F;
+}
+
+.menu:hover{
+    color: red;
+    border-bottom: solid 2px white;
+}
+
+.title{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Didact Gothic", serif;
+    padding: 15px 30px;
+    background-color: antiquewhite;
+}
+
+.desc{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Didact Gothic", serif;
+    padding: 15px 30px;
+    background-color: antiquewhite;
+    text-align: justify;
+}
+
+.img{
+    background-image: url(image.png);
+    width: 100opx;
+    height: 400px;
+    display: flex;
+    background-size: cover;
+}

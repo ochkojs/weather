@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .priceBox{
+            display: flex;
+            align-items: center;
+            padding-top: 16px;
+        }
+        #checkboxIcon {
+            padding-right: 20px;
+        }
+        .selectPackButton {
+            width: auto; 
+            height: auto; 
+            background-color: #A4D1E2; 
+            border-radius: 48px;
+            margin-top: 48px;
+        }
+        .selectPackText {
+            padding: 15px; 
+            text-align: center; 
+            font-size: 16px; 
+            font-weight: 600;
+        }
+        .budgetBox {
+            background-color: white; 
+            border-radius: 50px; 
+            width: 384px; 
+            height: 527px;
+            margin: 15px;
+        }
+        .love_icon {
+            display: flex; 
+            padding-top: 32px; 
+            padding-left: 24px; 
+            padding-bottom: 32px;
+        }
+        .badgetPackText {
+            font-size: 18px;
+            font-weight: 600;
+        }
+        .price {
+            font-size: 40px;
+            font-weight: 600;
+        }
+        .includes {
+            margin-top: 32px;
+            margin-left: 40px;
+            font-size: 18px;
+        }
+        .priceDetail {
+            font-size: 16px;
+            font-weight: 500;
+        }
+        #popular {
+            padding: 5px 10px;
+            background-color: #6972B5;
+            border-radius:20px;
+            color: white;
+        }
+    </style>
+    <title>Test Page</title>
+</head>
+<body style="display: flex; justify-content: space-evenly; background-image: url(images/pricebackground.png);">
+     <div class="budgetBox">
+        <div class="love_icon">
+            <img src="images/love_icon.jpg" alt="Love Icon" style="padding-right: 16px;">
+            <span class="badgetPackText">Budget Package</span>
+        </div>
+        <div style="display: inline-block; padding-left: 24px; padding-right: 24px;">
+            <div class="price">500$</div><br>
+            <div class="priceDetail">Essentials Covered</div>
+            <div class="includes">
+                Includes:
+            </div>
+            <div>
+                <div class="priceBox">
+                    <img id="checkboxIcon" src="images/check.png" alt="">
+                    <span>Group transportation (shared van/bus)</span>
+                </div>
+                <div class="priceBox">
+                    <img id="checkboxIcon" src="images/check.png" alt="">
+                    <span>Standard accommodation (yurt or guesthouse)</span>
+                </div>
+                <div class="priceBox">
+                    <img id="checkboxIcon" src="images/check.png" alt="">
+                    <span>Guided lake tour</span>
+                </div>
+                <div class="priceBox">
+                    <img id="checkboxIcon" src="images/check.png" alt="" >
+                    <span>1 meal per day (breakfast)</span>
+                </div>
+                
+            </div>
+            <div class="selectPackButton">
+                <div class="selectPackText">Select package</div>
+            </div>
+        </div>
+     </div>
+     <div class="budgetBox">
+        <div class="love_icon">
+            <img src="images/love_icon.jpg" alt="Love Icon" style="padding-right: 16px;">
+            <span class="badgetPackText">Standard Package</span>
+        </div>
+        <div style="display: inline-block; padding-left: 24px; padding-right: 24px;">
+            <div class="price">800$</div><br>
+
+            <div style="display: flex; justify-content: space-between;">
+                <div class="priceDetail">Balanced Adventure</div>
+            <div id="popular">
+                <span>
+                    Popular
+                </span>
+            </div>
+            </div>
+            
+            <div class="includes">
+                Includes:
+            </div>
+            <div>
+                <div class="priceBox">
+                    <img id="checkboxIcon" src="images/check.png" alt="">
+                    <span>Comfortable transportation (mini-bus)</span>
+                </div>
+                <div class="priceBox">
+                    <img id="checkboxIcon" src="images/check.png" alt="">
+                    <span>Mid-range accommodation (private yurt or lodge)</span>
+                </div>
+                <div class="priceBox">
+                    <img id="checkboxIcon" src="images/check.png" alt="">
+                    <span>Guided lake tour + nearby hiking</span>
+                </div>
+                <div class="priceBox">
+                    <img id="checkboxIcon" src="images/check.png" alt="" >
+                    <span>2 meals per day (breakfast and dinner)</span>
+                </div>
+                
+            </div>
+            <div class="selectPackButton">
+                <div class="selectPackText">Select package</div>
+            </div>
+        </div>
+     </div>
+     <div class="budgetBox">
+        <div class="love_icon">
+            <img src="images/love_icon.jpg" alt="Love Icon" style="padding-right: 16px;">
+            <span class="badgetPackText">Budget Package</span>
+        </div>
+        <div style="display: inline-block; padding-left: 24px; padding-right: 24px;">
+            <div class="price">1200$</div><br>
+            <div class="priceDetail">Ultimate Comfort</div>
+            <div class="includes">
+                Includes:
+            </div>
+            <div>
+                <div class="priceBox">
+                    <img id="checkboxIcon" src="images/check.png" alt="">
+                    <span>Private transportation (SUV)</span>
+                </div>
+                <div class="priceBox">
+                    <img id="checkboxIcon" src="images/check.png" alt="">
+                    <span>Luxury accommodation (lakefront lodge)</span>
+                </div>
+                <div class="priceBox">
+                    <img id="checkboxIcon" src="images/check.png" alt="">
+                    <span>Guided tours (lake + reindeer herder experience)</span>
+                </div>
+                <div class="priceBox">
+                    <img id="checkboxIcon" src="images/check.png" alt="" >
+                    <span>All meals included (local cuisine)</span>
+                </div>
+                
+            </div>
+            <div class="selectPackButton">
+                <div class="selectPackText">Select package</div>
+            </div>
+        </div>
+     </div>
+</body>
+</html>

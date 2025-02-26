@@ -1,0 +1,42 @@
+1: Munkhbold
+    Ширээний дугаар: 2c, Nickname: muugii, Gender: male, Hobby: gamer,artist,streamer,digitalart,volleyball,3dmodelmaker,
+2: Javkhlan
+    Ширээний дугаар: 1F, Nickname: Javhaa, Gender: male, Hobby: gaming,coding,watching movie,anime,sleeping,
+3: Tsatsral
+    Ширээний дугаар: 4A, Nickname: nottsatsa, Gender: male, Hobby: watch anime,
+4: Ochirzaya
+    Ширээний дугаар: 1E, Nickname: Zaya, Gender: Male, Hobby: play-soccer,
+5: Enkhbayar
+    Ширээний дугаар: 5c, Nickname: Eba, Gender: Male, Hobby: Quiz,movie,reading,cooking,gaming,hiking,
+6: Batmend
+    Ширээний дугаар: 4E, Nickname: mende, Gender: male, Hobby: basketball,billiard,reading,
+7: Tumen-Ulzii
+    Ширээний дугаар: 3F, Nickname: undefined, Gender: male, Hobby: sagsan bumbug,
+8: Magnaibayar
+    Ширээний дугаар: 2F, Nickname: Magnai, Gender: male, Hobby: Riding bicycle,reading,watching movie, anime,sleeping,
+9: Chimeg-Erdene
+    Ширээний дугаар: 3e, Nickname: Chimgee, Gender: female, Hobby: playing puzzle games,watching movie,volleyball,walking,
+10: Bayandelger
+    Ширээний дугаар: 3D, Nickname: bayna, Gender: male, Hobby: gaming,cooking,watch anime,
+11: Ganzaya
+    Ширээний дугаар: 2D, Nickname: Zaya, Gender: Female, Hobby: movie,paint,badminton,
+12: Maral
+    Ширээний дугаар: 3A, Nickname: Marla, Gender: Female, Hobby: watching movies,baking,
+13: chinggis
+    Ширээний дугаар: 3c, Nickname: undefined, Gender: male, Hobby: yuch hamaaguu hiine,
+14: Ochirdari
+    Ширээний дугаар: 2E, Nickname: Ochko, Gender: male, Hobby: reading,Movie,
+15: Amartuvshin
+    Ширээний дугаар: 3B, Nickname: Amaraa, Gender: male, Hobby: curious about everything, but not an expert in anything,
+16: bayarjavkhlan
+    Ширээний дугаар: 5B, Nickname: vigilante, Gender: male, Hobby: listen to music, driving, watching movie,
+17: Бат-Очир
+    Ширээний дугаар: 2A, Nickname: надад таалагдвал хүссэнээрээ дуудоо, Gender: эрэгтэй хө, Hobby: сагс хааяал,гүйх,зохион бүтээх,засварлах,шинэ зүйл сурах турших,
+18: Gantumur
+    Ширээний дугаар: 1B, Nickname: Ganaa, Gender: Male, Hobby: Movie,reading,
+19: Oyunbayar
+    Ширээний дугаар: 4F, Nickname: Omoo, Gender: female, Hobby: reading,movie,outdoor walking,traveling,
+20: Bishrelt
+    Ширээний дугаар: 4c, Nickname: undefined, Gender: male, Hobby: mongo oloh durtai,
+21: Tsog
+    Ширээний дугаар: 5A, Nickname: Gots, Gender: Male, Hobby: Travel,

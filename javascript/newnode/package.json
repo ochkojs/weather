@@ -1,0 +1,19 @@
+{
+  "name": "newnode",
+  "version": "1.0.0",
+  "description": "new node ini",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "ehel": "node index.js",
+    "react": "node react.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "new node",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "react": "^19.0.0",
+    "react-horizontal-scrolling-menu": "^8.2.0"
+  }
+}
