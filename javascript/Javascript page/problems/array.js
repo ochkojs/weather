@@ -80,14 +80,33 @@
 
 // ----------Problem 2----------------------
 
-const number2 = [15, 22, 3, 45, 7, 18];
+// const number2 = [15, 22, 3, 45, 7, 18];
 
-function numplus(x) {
-  for (let i = 0; i < number2.length; i++) {
-    if (number2[i] >= x) {
-        console.log(number2[i]);
+// function numplus(x) {
+//   for (let i = 0; i < number2.length; i++) {
+//     if (number2[i] >= x) {
+//         console.log(number2[i]);
+//     }
+//   }
+// }
+
+// numplus(10);
+
+function dayMonth (num){
+  for (let i = 1; i <= num; i++) {
+    switch (i) {
+      case 1: console.log(`${i}st day`)
+        break;
+      case 2 : console.log(`${i}nd day`)
+        break;
+      case 3 : console.log(`${i}rd day`)
+        break;
+      default:
+        console.log(`${i}th day`)
+        break;
     }
   }
 }
 
-numplus(10);
+dayMonth(31);
+
