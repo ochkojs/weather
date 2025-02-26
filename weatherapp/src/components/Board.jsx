@@ -1,5 +1,6 @@
 import { BottomMenu } from ".";
 import { CiLocationOn } from "react-icons/ci";
+import { LinearGradient } from "react-text-gradients";
 
 export const Board = ({ backColor, isDay }) => {
   return (
@@ -29,6 +30,8 @@ export const Board = ({ backColor, isDay }) => {
         />
       </div>
 
+      <div className="absolute w-[250px] h-[250px] justify-center items-center)"></div>
+
       <div className="">
         <img
           className=""
@@ -41,7 +44,15 @@ export const Board = ({ backColor, isDay }) => {
           isDay == "true" ? "text-black" : "text-white"
         }`}
       >
-        {isDay == "true" ? "26°" : "17°"}
+        <LinearGradient
+          gradient={
+            isDay == "true"
+              ? ["to bottom", "#111827, #6B7280"]
+              : ["to bottom", "#F9FAFB, #111827"]
+          }
+        >
+          {isDay == "true" ? "26°" : "17°"}
+        </LinearGradient>
       </p>
 
       <p

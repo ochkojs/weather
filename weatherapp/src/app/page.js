@@ -60,9 +60,14 @@ export default function Home() {
         height="h-[1340px]"
       ></Circular>
       <div className="flex bg-[#F3F4F6] w-[50%] h-screen justify-center items-center">
+        <img className="absolute top-20 left-20" src="./eclipse_day.png"></img>
         <Board isDay="true" backColor="bg-[#FFFFFF]"></Board>
       </div>
       <div className="flex bg-[#0F141E] w-[50%] h-screen justify-center items-center">
+        <img
+          className="absolute bottom-20 right-20"
+          src="./Ellipse_night.png"
+        ></img>
         <Board isDay="false" backColor="bg-[#111827]/75"></Board>
       </div>
     </div>
