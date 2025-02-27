@@ -11,7 +11,7 @@ export const Board = ({ backColor, isDay }) => {
         <div>
           <p
             className={`text-[18px] z-50 ${
-              isDay == "true" ? "text-black" : "text-white"
+              isDay == "true" ? "text-black" : "text-[#9CA3AF]"
             }`}
           >
             September 10, 2021

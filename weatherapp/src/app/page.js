@@ -1,7 +1,17 @@
-import { Board, BottomMenu, Circular, LocationInput } from "@/components";
-import Image from "next/image";
+"use client";
+import { Board, Circular, LocationInput } from "@/components";
+import { useState } from "react";
 
 export default function Home() {
+  const [data, setData] = useState([
+    {
+      date: "September 10, 2021",
+      locationName: "Ulaanbaatar",
+      temp: "26°",
+      condition: "Clear",
+    },
+  ]);
+
   return (
     <div className="flex justify-center items-center h-screen static">
       <div className="z-990">
@@ -61,7 +71,7 @@ export default function Home() {
       ></Circular>
       <div className="flex bg-[#F3F4F6] w-[50%] h-screen justify-center items-center">
         <img className="absolute top-20 left-20" src="./eclipse_day.png"></img>
-        <Board isDay="true" backColor="bg-[#FFFFFF]"></Board>
+        <Board isDay="true" backColor="bg-[#FFFFFF]/75"></Board>
       </div>
       <div className="flex bg-[#0F141E] w-[50%] h-screen justify-center items-center">
         <img
